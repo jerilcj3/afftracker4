@@ -1,0 +1,3 @@
+CherryPy-SQLAlchemy=0.5.3
+cherrypy-cors=1.6
+CherryPy=18.6.1
