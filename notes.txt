@@ -1,0 +1,17 @@
+
+
+if the landing page is of type lander_rotator
+
+    if the landing page query string is jose get children of level 1
+    get the weight of all children
+    redistribute traffic among all the children
+
+
+if the landing page is of type lander_node
+    get children where level =1
+       is it lander node, if yes then redirect to lander node
+       is it email node, then send email
+       is it email rotator, then get all children, get the email send date and
+       time for each child. 
+
+     

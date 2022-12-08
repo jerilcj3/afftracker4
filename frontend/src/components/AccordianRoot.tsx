@@ -20,20 +20,20 @@ import axios from 'axios';
 
 interface TreeData {
   node: string;
-  parent: string;
-  type: string | undefined;
-  url: string | undefined;
-  weight: number | undefined;
+  parent: string | null;
+  type: string | null;
+  url: string | null;
+  weight: number | 0;
 }
 
 const TreeDataValues: TreeData[] = [
   /* Setting default values for root campaign */
   {
     node: 'CAMPAIGN',
-    parent: 'null',
-    type: undefined,
-    url: undefined,
-    weight: undefined,
+    parent: null,
+    type: null,
+    url: null,
+    weight: 0,
   },
 ];
 
@@ -93,9 +93,9 @@ const AccordianRoot: React.FC = ({}) => {
             TreeDataValues.push({
               node: child.name,
               parent: treeObject.name,
-              type: undefined,
-              url: undefined,
-              weight: undefined,
+              type: child.attributes.type,
+              url: null,
+              weight: 0,
             });
             break;
             
