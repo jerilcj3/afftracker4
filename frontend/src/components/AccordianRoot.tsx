@@ -13,10 +13,11 @@ import FormLanderNode from './FormLanderNode';
 import FormLanderRotator from './FormLanderRotator';
 import FormToken from './FormToken';
 import type { RootState } from '../store';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import { useState } from 'react';
 import { landerRotator } from '../slices/AccordianSlice';
 import axios from 'axios';
+import { saveCampaignButtonClicked } from '../slices/saveCampaignButtonSlice';
 
 interface TreeData {
   node: string;
@@ -60,7 +61,9 @@ function AccordionControl(props: AccordionControlProps) {
 }
 
 const AccordianRoot: React.FC = ({}) => {
+  const dispatch = useDispatch();
   const accordian = useSelector((state: RootState) => state.accordian);
+  const saveCampaignButtonState = useSelector((state: RootState) => state.saveCampaignButton)
   const tree = useSelector((state: RootState) => state.tree.Tree);
   const node = useSelector((state: RootState) => state.node);
   const tokens = useSelector((state: RootState) => state.tokens);
@@ -115,6 +118,7 @@ const AccordianRoot: React.FC = ({}) => {
   }
 
   async function onSubmit() {
+    console.log(saveCampaignButtonState);
     /* *** Todos
       
      Get the tree from the state
@@ -137,6 +141,7 @@ const AccordianRoot: React.FC = ({}) => {
       );
       //console.log(res); //check now
     } catch (e) {}
+    dispatch(saveCampaignButtonClicked());
   }
 
   return (
@@ -223,7 +228,7 @@ const AccordianRoot: React.FC = ({}) => {
         </Accordion.Item>
       </Accordion>
 
-      <Button className={classes.saveCampaign} onClick={onSubmit}>
+      <Button disabled={saveCampaignButtonState.disabled} className={classes.saveCampaign} onClick={onSubmit}>
         SAVE CAMPAIGN
       </Button>
     </Box>

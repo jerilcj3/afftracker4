@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import drawer from './slices/drawerSlice';
 import accordian from './slices/AccordianSlice';
+import saveCampaignButton from './slices/saveCampaignButtonSlice'
 
 import tree from './slices/treeSlice';
 import node from './slices/nodeSlice';
@@ -10,6 +11,7 @@ export const store = configureStore({
   reducer: {
     drawer: drawer,
     accordian: accordian,
+    saveCampaignButton: saveCampaignButton,
     tree: tree,
     node: node,
     tokens: tokens,
