@@ -66,7 +66,7 @@ export default function App() {
         break;
 
       //show Lander Drawer if datum.data.attributes?.type is landerRotator
-      case datum.data.attributes?.type == 'landerRotator':
+      case datum.data.attributes?.type === 'landerRotator':
         dispatch(landerRotator(true));
         dispatch(landerNode(false));
         dispatch(tokens(true));
@@ -74,7 +74,7 @@ export default function App() {
         dispatch(emailNode(true));
         break;
 
-      case datum.data.attributes?.type == 'landerNode':
+      case datum.data.attributes?.type === 'landerNode':
         if (typeof datum?.children?.length != 'undefined') {
           if (datum.children!.length > 0) {
             dispatch(landerRotator(true));
@@ -90,10 +90,10 @@ export default function App() {
         }
         break;
 
-      case datum.data.attributes?.type == 'emailRotator':
+      case datum.data.attributes?.type === 'emailRotator':
         break;
 
-      case datum.data.attributes?.type == 'emailNode':
+      case datum.data.attributes?.type === 'emailNode':
         break;
     }
   };

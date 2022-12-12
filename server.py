@@ -4,9 +4,10 @@
 import os
 import cherrypy
 import tempfile
-import controller.app
+import controller.root, controller.create, controller.campaigns
 from models.model import ORBase
 from cp_sqlalchemy import SQLAlchemyTool, SQLAlchemyPlugin
+import cherrypy_cors
 
 
 class Server(object):
@@ -26,12 +27,25 @@ class Server(object):
             os.mkdir(session_dir)
 
     def _setup(self):
+
+        cherrypy_cors.install()
         # Update the global settings for the HTTP server and engine
         cherrypy.config.update(os.path.join(self.conf_path, "server.conf"))
 
     def _add_app(self):
         cherrypy.tree.mount(
-            controller.app.App(), "/", os.path.join(self.conf_path, "app.conf")
+            controller.root.Root(), "/", os.path.join(self.conf_path, "app.conf")
+        )
+        cherrypy.tree.mount(
+            controller.create.Create(),
+            "/create",
+            os.path.join(self.conf_path, "app.conf"),
+        )
+
+        cherrypy.tree.mount(
+            controller.campaigns.Campaigns(),
+            "/campaigns",
+            os.path.join(self.conf_path, "app.conf"),
         )
 
     def run(self):

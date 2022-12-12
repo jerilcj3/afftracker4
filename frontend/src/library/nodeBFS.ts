@@ -31,7 +31,6 @@ function nodeBFS(nodeBFSInterface: nodeBFSInterface) {
           console.log(err);
         }
         return { ...nodeBFSInterface.tree };
-        break;
 
       /* case for lander node */
       case curNode!.name === nodeBFSInterface.clickedNodeName &&
@@ -54,7 +53,6 @@ function nodeBFS(nodeBFSInterface: nodeBFSInterface) {
           console.log(err);
         }
         return { ...nodeBFSInterface.tree };
-        break;
 
       /* Case for Email Rotator */
 
@@ -73,7 +71,6 @@ function nodeBFS(nodeBFSInterface: nodeBFSInterface) {
           console.log(err);
         }
         return { ...nodeBFSInterface.tree };
-        break;
     }
 
     const len = curNode!.children!.length;

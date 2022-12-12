@@ -18,6 +18,8 @@ import { useState } from 'react';
 import { landerRotator } from '../slices/AccordianSlice';
 import axios from 'axios';
 import { saveCampaignButtonClicked } from '../slices/saveCampaignButtonSlice';
+import uuid from 'react-uuid';
+
 
 interface TreeData {
   node: string;
@@ -118,7 +120,6 @@ const AccordianRoot: React.FC = ({}) => {
   }
 
   async function onSubmit() {
-    console.log(saveCampaignButtonState);
     /* *** Todos
       
      Get the tree from the state
@@ -131,12 +132,16 @@ const AccordianRoot: React.FC = ({}) => {
       const res = await axios.post(
         `${process.env.REACT_APP_PYTHON_API}`,
         {
+          campaignID: uuid(),
           TreeDataValues,
+          tokens
+          
         },
         {
           headers: {
             'Content-Type': 'application/json',
           },
+          
         }
       );
       //console.log(res); //check now
