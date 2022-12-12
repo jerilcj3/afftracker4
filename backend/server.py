@@ -34,17 +34,19 @@ class Server(object):
 
     def _add_app(self):
         cherrypy.tree.mount(
-            src.controller.root.Root(), "/", os.path.join(self.conf_path, "app.conf")
+            src.controller.root.Root(),
+            "/api/",
+            os.path.join(self.conf_path, "app.conf"),
         )
         cherrypy.tree.mount(
             src.controller.create.Create(),
-            "/create",
+            "/api/create",
             os.path.join(self.conf_path, "app.conf"),
         )
 
         cherrypy.tree.mount(
             src.controller.campaigns.Campaigns(),
-            "/campaigns",
+            "/api/campaigns",
             os.path.join(self.conf_path, "app.conf"),
         )
 

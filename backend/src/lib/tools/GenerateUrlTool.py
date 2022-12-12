@@ -44,7 +44,7 @@ class GenerateUrlTool(cherrypy.Tool):
             return {"error": "Error querying database"}
 
         # Initialize the result string
-        result = "http://localhost:8080?campaignid=" + campaignid + "&"
+        result = "http://localhost:8080/track?campaignid=" + campaignid + "&"
 
         for i, param in enumerate(results):
             result += param["param_name"] + "=" + param["param_value"]
