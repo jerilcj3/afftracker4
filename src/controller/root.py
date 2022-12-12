@@ -1,7 +1,7 @@
 import cherrypy
 import cherrypy_cors
 import os
-import lib.tools.GenerateUrlTool
+import src.lib.tools.GenerateUrlTool
 
 __all__ = ["Root"]
 

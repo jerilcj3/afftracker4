@@ -1,8 +1,8 @@
 import cherrypy
 import cherrypy_cors
 import os
-from models.model import Campaign as ModelCampaign
-from models.model import Token as ModelToken
+from src.models.model import Campaign as ModelCampaign
+from src.models.model import Token as ModelToken
 
 __all__ = ["Create"]
 

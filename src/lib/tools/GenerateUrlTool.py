@@ -1,6 +1,6 @@
 import cherrypy
 from sqlalchemy.exc import SQLAlchemyError
-from models.model import Token as ModelToken
+from src.models.model import Token as ModelToken
 
 """ 
 # How to call this tool
