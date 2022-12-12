@@ -770,3 +770,5 @@
 127.0.0.1 - - [12/Dec/2022:09:53:21] "OPTIONS /create/ HTTP/1.1" 200 28 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
 127.0.0.1 - - [12/Dec/2022:09:53:21] "POST /create/ HTTP/1.1" 500 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
 127.0.0.1 - - [12/Dec/2022:09:53:43] "GET /campaigns/ HTTP/1.1" 200 156 "" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+127.0.0.1 - - [12/Dec/2022:12:29:15] "OPTIONS /create/ HTTP/1.1" 200 28 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+127.0.0.1 - - [12/Dec/2022:12:29:15] "POST /create/ HTTP/1.1" 500 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"

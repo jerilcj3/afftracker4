@@ -1,6 +1,8 @@
 import cherrypy
 import cherrypy_cors
-from models.campaign import Campaign as ModelCampaign
+from models.model import Campaign as ModelCampaign
+
+# from models.campaign import Campaign as ModelCampaign
 from sqlalchemy.exc import SQLAlchemyError
 
 __all__ = ["Campaigns"]

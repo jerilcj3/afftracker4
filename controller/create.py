@@ -1,8 +1,8 @@
 import cherrypy
 import cherrypy_cors
 import os
-from models.campaign import Campaign
-from models.token import Token
+from models.model import Campaign as ModelCampaign
+from models.model import Token as ModelToken
 
 __all__ = ["Create"]
 
@@ -29,7 +29,7 @@ class Create(object):
                 for node in data["TreeDataValues"]:
                     """Insert into the campaigns table"""
                     self.db.add(
-                        Campaign(
+                        ModelCampaign(
                             campaignID=campaignID,
                             node=node["node"],
                             parent=node["parent"],
@@ -44,7 +44,7 @@ class Create(object):
                 # Iterate over the tokens and insert them into the database
                 for token in tokens:
                     self.db.add(
-                        Token(
+                        ModelToken(
                             campaignID=campaignID,
                             param_name=token["placeholder"],
                             param_value=token["value"],
