@@ -5,6 +5,7 @@ import {
   AccordionControlProps,
   Box,
   Button,
+  ScrollArea
 } from '@mantine/core';
 import { IconDots } from '@tabler/icons';
 import FormEmailNode from './FormEmailNode';
@@ -48,6 +49,7 @@ const useStyles = createStyles((theme, _params, getRef) => ({
     borderRadius: '5px',
     height: '50px',
     border: 0,
+    backgroundColor: 'orange'
   },
 }));
 
@@ -150,6 +152,7 @@ const AccordianRoot: React.FC = ({}) => {
   }
 
   return (
+    <ScrollArea style={{ height: 750 }}>
     <Box>
       <Accordion
         variant="separated"
@@ -237,6 +240,7 @@ const AccordianRoot: React.FC = ({}) => {
         SAVE CAMPAIGN
       </Button>
     </Box>
+    </ScrollArea>
   );
 };
 

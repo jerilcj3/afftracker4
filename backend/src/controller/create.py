@@ -9,6 +9,13 @@ __all__ = ["Create"]
 """
     This route captures the campaign tree created from the frontend and stores the tree in the database.
     This route is called from the file AccordianRoot.tsx in react
+
+    columns
+
+    id  CampaignID  node   parent    node_type  url         weight   Email     Email Sub    
+
+    1   1234-37dg0  page1  rotator1  node       page1.com   40       this is    
+
 """
 
 
@@ -61,7 +68,7 @@ class Create(object):
 
             # Return a 500 error to the client
             cherrypy.response.status = 500
-        return
+        return "OK"
 
     @cherrypy.expose
     @cherrypy.tools.json_in()

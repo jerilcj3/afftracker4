@@ -23,9 +23,19 @@ const useStyles = createStyles((theme, _params, getRef) => ({
 
   formikField: {
     padding: '10px',
+    marginBottom: '10px',
     borderRadius: '5px',
     width: '95%',
     height: '50px',
+    border: 0,
+  },
+
+  formikFieldTextArea: {
+    padding: '10px',
+    marginBottom: '10px',
+    borderRadius: '5px',
+    width: '95%',
+    height: '190px',
     border: 0,
   },
 
@@ -82,13 +92,13 @@ const FormEmailNode: React.FC<{}> = () => {
 
           const newTree = nodeBFS({
             tree: tree,
-            clickedNodeName: node!.Node.data.name,            
+            clickedNodeName: node!.Node.data.name,
             newNodeName: values.emailNodeName,
             filters: {
               type: 'emailNode',
             },
           });
-          
+
           /*
             Once the tree is contructed, then the below function calls the redux dispatch
             To dispatch you pass the newly contructed tree from nodeBFS and it saves in the redux store
@@ -105,7 +115,22 @@ const FormEmailNode: React.FC<{}> = () => {
               className={classes.formikField}
               id="emailNodeName"
               name="emailNodeName"
-              placeholder="Email Name"
+              placeholder="Email Node Name"
+            />
+
+            <Field
+              className={classes.formikField}
+              id="emailNodeSubject"
+              name="emailNodeSubject"
+              placeholder="Email Subject"
+            />
+
+            <Field
+              component="textarea"
+              className={classes.formikFieldTextArea}
+              id="emailNodeSubject"
+              name="emailNodeSubject"
+              placeholder="Email Subject"
             />
           </div>
           <Button

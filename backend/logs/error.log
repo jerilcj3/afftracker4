@@ -16478,3 +16478,213 @@ Request Headers:
 [12/Dec/2022:21:48:01] ENGINE Bus EXITING
 [12/Dec/2022:21:48:01] ENGINE Bus EXITED
 [12/Dec/2022:21:48:01] ENGINE Waiting for child threads to terminate...
+[13/Dec/2022:13:39:52] ENGINE Listening for SIGTERM.
+[13/Dec/2022:13:39:52] ENGINE Listening for SIGHUP.
+[13/Dec/2022:13:39:52] ENGINE Listening for SIGUSR1.
+[13/Dec/2022:13:39:52]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[13/Dec/2022:13:39:52] ENGINE Bus STARTING
+[13/Dec/2022:13:39:52] ENGINE Started monitor thread 'Autoreloader'.
+[13/Dec/2022:13:39:52] ENGINE Serving on http://0.0.0.0:8080
+[13/Dec/2022:13:39:52] ENGINE Bus STARTED
+[13/Dec/2022:17:50:24] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/src/controller/root.py changed.
+[13/Dec/2022:17:50:24] ENGINE Stopped thread 'Autoreloader'.
+[13/Dec/2022:17:50:24] ENGINE Bus STOPPING
+[13/Dec/2022:17:50:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[13/Dec/2022:17:50:25] ENGINE Bus STOPPED
+[13/Dec/2022:17:50:25] ENGINE Bus EXITING
+[13/Dec/2022:17:50:25] ENGINE Bus EXITED
+[13/Dec/2022:17:50:25] ENGINE Waiting for child threads to terminate...
+[13/Dec/2022:17:50:25] ENGINE Re-spawning python3 server.py
+[13/Dec/2022:17:50:25] ENGINE Listening for SIGTERM.
+[13/Dec/2022:17:50:25] ENGINE Listening for SIGHUP.
+[13/Dec/2022:17:50:25] ENGINE Listening for SIGUSR1.
+[13/Dec/2022:17:50:25]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[13/Dec/2022:17:50:25] ENGINE Bus STARTING
+[13/Dec/2022:17:50:25] ENGINE Started monitor thread 'Autoreloader'.
+[13/Dec/2022:17:50:26] ENGINE Serving on http://0.0.0.0:8080
+[13/Dec/2022:17:50:26] ENGINE Bus STARTED
+[13/Dec/2022:17:52:59] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/server.py changed.
+[13/Dec/2022:17:52:59] ENGINE Stopped thread 'Autoreloader'.
+[13/Dec/2022:17:52:59] ENGINE Bus STOPPING
+[13/Dec/2022:17:52:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[13/Dec/2022:17:52:59] ENGINE Bus STOPPED
+[13/Dec/2022:17:52:59] ENGINE Bus EXITING
+[13/Dec/2022:17:52:59] ENGINE Bus EXITED
+[13/Dec/2022:17:52:59] ENGINE Waiting for child threads to terminate...
+[13/Dec/2022:17:52:59] ENGINE Re-spawning python3 server.py
+[13/Dec/2022:17:53:15] ENGINE Listening for SIGTERM.
+[13/Dec/2022:17:53:15] ENGINE Listening for SIGHUP.
+[13/Dec/2022:17:53:15] ENGINE Listening for SIGUSR1.
+[13/Dec/2022:17:53:15]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[13/Dec/2022:17:53:15] ENGINE Bus STARTING
+[13/Dec/2022:17:53:15] ENGINE Started monitor thread 'Autoreloader'.
+[13/Dec/2022:17:53:15] ENGINE Serving on http://0.0.0.0:8080
+[13/Dec/2022:17:53:15] ENGINE Bus STARTED
+[13/Dec/2022:17:55:38] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/src/controller/url.py changed.
+[13/Dec/2022:17:55:38] ENGINE Stopped thread 'Autoreloader'.
+[13/Dec/2022:17:55:38] ENGINE Bus STOPPING
+[13/Dec/2022:17:55:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[13/Dec/2022:17:55:38] ENGINE Bus STOPPED
+[13/Dec/2022:17:55:38] ENGINE Bus EXITING
+[13/Dec/2022:17:55:38] ENGINE Bus EXITED
+[13/Dec/2022:17:55:38] ENGINE Waiting for child threads to terminate...
+[13/Dec/2022:17:55:38] ENGINE Re-spawning python3 server.py
+[13/Dec/2022:17:55:39] ENGINE Listening for SIGTERM.
+[13/Dec/2022:17:55:39] ENGINE Listening for SIGHUP.
+[13/Dec/2022:17:55:39] ENGINE Listening for SIGUSR1.
+[13/Dec/2022:17:55:39]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[13/Dec/2022:17:55:39] ENGINE Bus STARTING
+[13/Dec/2022:17:55:39] ENGINE Started monitor thread 'Autoreloader'.
+[13/Dec/2022:17:55:39] ENGINE Serving on http://0.0.0.0:8080
+[13/Dec/2022:17:55:39] ENGINE Bus STARTED
+[13/Dec/2022:17:56:07] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/src/controller/url.py changed.
+[13/Dec/2022:17:56:07] ENGINE Stopped thread 'Autoreloader'.
+[13/Dec/2022:17:56:07] ENGINE Bus STOPPING
+[13/Dec/2022:17:56:07] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[13/Dec/2022:17:56:07] ENGINE Bus STOPPED
+[13/Dec/2022:17:56:07] ENGINE Bus EXITING
+[13/Dec/2022:17:56:07] ENGINE Bus EXITED
+[13/Dec/2022:17:56:07] ENGINE Waiting for child threads to terminate...
+[13/Dec/2022:17:56:07] ENGINE Re-spawning python3 server.py
+[13/Dec/2022:17:56:08] ENGINE Listening for SIGTERM.
+[13/Dec/2022:17:56:08] ENGINE Listening for SIGHUP.
+[13/Dec/2022:17:56:08] ENGINE Listening for SIGUSR1.
+[13/Dec/2022:17:56:08]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[13/Dec/2022:17:56:08] ENGINE Bus STARTING
+[13/Dec/2022:17:56:08] ENGINE Started monitor thread 'Autoreloader'.
+[13/Dec/2022:17:56:08] ENGINE Serving on http://0.0.0.0:8080
+[13/Dec/2022:17:56:08] ENGINE Bus STARTED
+[13/Dec/2022:17:56:53] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/src/controller/url.py changed.
+[13/Dec/2022:17:56:53] ENGINE Stopped thread 'Autoreloader'.
+[13/Dec/2022:17:56:53] ENGINE Bus STOPPING
+[13/Dec/2022:17:56:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[13/Dec/2022:17:56:53] ENGINE Bus STOPPED
+[13/Dec/2022:17:56:53] ENGINE Bus EXITING
+[13/Dec/2022:17:56:53] ENGINE Bus EXITED
+[13/Dec/2022:17:56:54] ENGINE Waiting for child threads to terminate...
+[13/Dec/2022:17:56:54] ENGINE Re-spawning python3 server.py
+[13/Dec/2022:17:56:54] ENGINE Listening for SIGTERM.
+[13/Dec/2022:17:56:54] ENGINE Listening for SIGHUP.
+[13/Dec/2022:17:56:54] ENGINE Listening for SIGUSR1.
+[13/Dec/2022:17:56:54]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[13/Dec/2022:17:56:54] ENGINE Bus STARTING
+[13/Dec/2022:17:56:54] ENGINE Started monitor thread 'Autoreloader'.
+[13/Dec/2022:17:56:54] ENGINE Serving on http://0.0.0.0:8080
+[13/Dec/2022:17:56:54] ENGINE Bus STARTED
+[14/Dec/2022:02:26:10] ENGINE Keyboard Interrupt: shutting down bus
+[14/Dec/2022:02:26:10] ENGINE Bus STOPPING
+[14/Dec/2022:02:26:10] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/Dec/2022:02:26:10] ENGINE Stopped thread 'Autoreloader'.
+[14/Dec/2022:02:26:10] ENGINE Bus STOPPED
+[14/Dec/2022:02:26:10] ENGINE Bus EXITING
+[14/Dec/2022:02:26:10] ENGINE Bus EXITED
+[14/Dec/2022:02:26:10] ENGINE Waiting for child threads to terminate...
+[14/Dec/2022:11:08:37] ENGINE Listening for SIGTERM.
+[14/Dec/2022:11:08:37] ENGINE Listening for SIGHUP.
+[14/Dec/2022:11:08:37] ENGINE Listening for SIGUSR1.
+[14/Dec/2022:11:08:37]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[14/Dec/2022:11:08:37] ENGINE Bus STARTING
+[14/Dec/2022:11:08:37] ENGINE Started monitor thread 'Autoreloader'.
+[14/Dec/2022:11:08:37] ENGINE Serving on http://0.0.0.0:8080
+[14/Dec/2022:11:08:37] ENGINE Bus STARTED
+[14/Dec/2022:18:24:58] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/src/controller/create.py changed.
+[14/Dec/2022:18:24:58] ENGINE Stopped thread 'Autoreloader'.
+[14/Dec/2022:18:24:58] ENGINE Bus STOPPING
+[14/Dec/2022:18:24:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/Dec/2022:18:24:59] ENGINE Bus STOPPED
+[14/Dec/2022:18:24:59] ENGINE Bus EXITING
+[14/Dec/2022:18:24:59] ENGINE Bus EXITED
+[14/Dec/2022:18:24:59] ENGINE Waiting for child threads to terminate...
+[14/Dec/2022:18:24:59] ENGINE Re-spawning python3 server.py
+[14/Dec/2022:18:25:00] ENGINE Listening for SIGTERM.
+[14/Dec/2022:18:25:00] ENGINE Listening for SIGHUP.
+[14/Dec/2022:18:25:00] ENGINE Listening for SIGUSR1.
+[14/Dec/2022:18:25:00]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[14/Dec/2022:18:25:00] ENGINE Bus STARTING
+[14/Dec/2022:18:25:00] ENGINE Started monitor thread 'Autoreloader'.
+[14/Dec/2022:18:25:00] ENGINE Serving on http://0.0.0.0:8080
+[14/Dec/2022:18:25:00] ENGINE Bus STARTED
+[14/Dec/2022:18:33:24] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/src/controller/url.py changed.
+[14/Dec/2022:18:33:24] ENGINE Stopped thread 'Autoreloader'.
+[14/Dec/2022:18:33:24] ENGINE Bus STOPPING
+[14/Dec/2022:18:33:25] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/Dec/2022:18:33:25] ENGINE Bus STOPPED
+[14/Dec/2022:18:33:25] ENGINE Bus EXITING
+[14/Dec/2022:18:33:25] ENGINE Bus EXITED
+[14/Dec/2022:18:33:25] ENGINE Waiting for child threads to terminate...
+[14/Dec/2022:18:33:25] ENGINE Re-spawning python3 server.py
+[14/Dec/2022:18:33:26] ENGINE Listening for SIGTERM.
+[14/Dec/2022:18:33:26] ENGINE Listening for SIGHUP.
+[14/Dec/2022:18:33:26] ENGINE Listening for SIGUSR1.
+[14/Dec/2022:18:33:26]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[14/Dec/2022:18:33:26] ENGINE Bus STARTING
+[14/Dec/2022:18:33:26] ENGINE Started monitor thread 'Autoreloader'.
+[14/Dec/2022:18:33:26] ENGINE Serving on http://0.0.0.0:8080
+[14/Dec/2022:18:33:26] ENGINE Bus STARTED
+[14/Dec/2022:18:35:40] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/src/controller/url.py changed.
+[14/Dec/2022:18:35:40] ENGINE Stopped thread 'Autoreloader'.
+[14/Dec/2022:18:35:40] ENGINE Bus STOPPING
+[14/Dec/2022:18:35:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/Dec/2022:18:35:40] ENGINE Bus STOPPED
+[14/Dec/2022:18:35:40] ENGINE Bus EXITING
+[14/Dec/2022:18:35:40] ENGINE Bus EXITED
+[14/Dec/2022:18:35:40] ENGINE Waiting for child threads to terminate...
+[14/Dec/2022:18:35:40] ENGINE Re-spawning python3 server.py
+[14/Dec/2022:18:35:41] ENGINE Listening for SIGTERM.
+[14/Dec/2022:18:35:41] ENGINE Listening for SIGHUP.
+[14/Dec/2022:18:35:41] ENGINE Listening for SIGUSR1.
+[14/Dec/2022:18:35:41]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[14/Dec/2022:18:35:41] ENGINE Bus STARTING
+[14/Dec/2022:18:35:41] ENGINE Started monitor thread 'Autoreloader'.
+[14/Dec/2022:18:35:41] ENGINE Serving on http://0.0.0.0:8080
+[14/Dec/2022:18:35:41] ENGINE Bus STARTED
+[14/Dec/2022:18:38:56] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/src/controller/url.py changed.
+[14/Dec/2022:18:38:56] ENGINE Stopped thread 'Autoreloader'.
+[14/Dec/2022:18:38:56] ENGINE Bus STOPPING
+[14/Dec/2022:18:38:56] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/Dec/2022:18:38:56] ENGINE Bus STOPPED
+[14/Dec/2022:18:38:56] ENGINE Bus EXITING
+[14/Dec/2022:18:38:56] ENGINE Bus EXITED
+[14/Dec/2022:18:38:56] ENGINE Waiting for child threads to terminate...
+[14/Dec/2022:18:38:56] ENGINE Re-spawning python3 server.py
+[14/Dec/2022:18:38:56] ENGINE Listening for SIGTERM.
+[14/Dec/2022:18:38:56] ENGINE Listening for SIGHUP.
+[14/Dec/2022:18:38:56] ENGINE Listening for SIGUSR1.
+[14/Dec/2022:18:38:56]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[14/Dec/2022:18:38:56] ENGINE Bus STARTING
+[14/Dec/2022:18:38:56] ENGINE Started monitor thread 'Autoreloader'.
+[14/Dec/2022:18:38:57] ENGINE Serving on http://0.0.0.0:8080
+[14/Dec/2022:18:38:57] ENGINE Bus STARTED
+[14/Dec/2022:18:44:51] ENGINE Restarting because /run/media/jeril/WD Blue/builds/afftracker4/backend/src/controller/campaigns.py changed.
+[14/Dec/2022:18:44:51] ENGINE Stopped thread 'Autoreloader'.
+[14/Dec/2022:18:44:51] ENGINE Bus STOPPING
+[14/Dec/2022:18:44:51] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/Dec/2022:18:44:51] ENGINE Bus STOPPED
+[14/Dec/2022:18:44:51] ENGINE Bus EXITING
+[14/Dec/2022:18:44:51] ENGINE Bus EXITED
+[14/Dec/2022:18:44:51] ENGINE Waiting for child threads to terminate...
+[14/Dec/2022:18:44:51] ENGINE Re-spawning python3 server.py
+[14/Dec/2022:18:44:52] ENGINE Listening for SIGTERM.
+[14/Dec/2022:18:44:52] ENGINE Listening for SIGHUP.
+[14/Dec/2022:18:44:52] ENGINE Listening for SIGUSR1.
+[14/Dec/2022:18:44:52]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[14/Dec/2022:18:44:52] ENGINE Bus STARTING
+[14/Dec/2022:18:44:52] ENGINE Started monitor thread 'Autoreloader'.
+[14/Dec/2022:18:44:52] ENGINE Serving on http://0.0.0.0:8080
+[14/Dec/2022:18:44:52] ENGINE Bus STARTED
+[14/Dec/2022:23:21:40] ENGINE Keyboard Interrupt: shutting down bus
+[14/Dec/2022:23:21:40] ENGINE Bus STOPPING
+[14/Dec/2022:23:21:40] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('0.0.0.0', 8080)) shut down
+[14/Dec/2022:23:21:40] ENGINE Stopped thread 'Autoreloader'.
+[14/Dec/2022:23:21:40] ENGINE Bus STOPPED
+[14/Dec/2022:23:21:40] ENGINE Bus EXITING
+[14/Dec/2022:23:21:40] ENGINE Bus EXITED
+[14/Dec/2022:23:21:40] ENGINE Waiting for child threads to terminate...
+[15/Dec/2022:17:47:15] ENGINE Listening for SIGTERM.
+[15/Dec/2022:17:47:15] ENGINE Listening for SIGHUP.
+[15/Dec/2022:17:47:15] ENGINE Listening for SIGUSR1.
+[15/Dec/2022:17:47:15]  Creating tables: Engine(postgresql://postgres@localhost:5432/postgres)
+[15/Dec/2022:17:47:15] ENGINE Bus STARTING
+[15/Dec/2022:17:47:15] ENGINE Started monitor thread 'Autoreloader'.
+[15/Dec/2022:17:47:15] ENGINE Serving on http://0.0.0.0:8080
+[15/Dec/2022:17:47:15] ENGINE Bus STARTED

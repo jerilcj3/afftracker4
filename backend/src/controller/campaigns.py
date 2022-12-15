@@ -7,7 +7,7 @@ from sqlalchemy.exc import SQLAlchemyError
 
 __all__ = ["Campaigns"]
 
-""" This route sends all the campaigns created in the campaigns table
+""" This route returns all the campaigns created in the campaigns table
 
 To call this route http://localhost:8080/campaigns/
 
